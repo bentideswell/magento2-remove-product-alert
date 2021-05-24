@@ -1,0 +1,15 @@
+{
+    "name": "fishpig/magento2-remove-product-alert",
+    "description": "Remove ProductAlert.",
+    "type": "project",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Magento\\ProductAlert\\": "Mock/Magento/ProductAlert"
+        }
+    },
+    "replace": {
+        "magento/module-product-alert": "*",
+        "magento/module-inventory-product-alert": "*"
+    }
+}
